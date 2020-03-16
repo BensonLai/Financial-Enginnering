@@ -6,12 +6,11 @@ r = float(input('請輸入年利率(%): '))
 c = math.ceil(x/y/12) #計算每期攤還本金在無條件進位
 listc = [c]*y*12
 listc[y*12-1] = x - c*(y*12-1)
-listx = [x]*y*12
 listr = [0]*y*12
 listt = [0]*y*12
 ind = [0]*y*12
 for i in range(y*12):
-    listr[i] = (listx[i]-c*i) * r*0.01/12
+    listr[i] = (x-c*i) * r*0.01/12
     if listr[i] - int(listr[i])<= 0.4:
         listr[i] = int(listr[i])
     else:
