@@ -26,9 +26,7 @@ forward_rate = [[0]*y*pay for i in range(y*pay)]
 for i in range(y*pay):
     for j in range(y*pay):
         z = ((1+spot_rate[j])**j)/((1+spot_rate[i])**i)
-        if j-i == 0:
-            forward_rate[i][j] = 0
-        else:
+        if j-i != 0:
             forward_rate[i][j] = z**(1/(j-i)) - 1
 
 table = pd.DataFrame(forward_rate)   
