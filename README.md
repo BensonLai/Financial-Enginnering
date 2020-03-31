@@ -1,7 +1,11 @@
 # Financial-Enginnering
-姓名: 賴彬誠
-學號: R08323040
-系級: 台大經研碩一
+
+Name: 賴彬誠 Benson Lai
+
+Student ID: R08323040
+
+National Taiwan University, Department of Economics
+
 
 ## Assignment 2
 1. [Learning Process](https://github.com/BensonLai/Financial-Enginnering/blob/master/HW2/%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%20HW2.pdf)
