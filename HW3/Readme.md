@@ -10,12 +10,8 @@
 請點選檔案位置的程式碼，即可看到執行檔。執行方式為以Anaconda中的Spider開啟，並按F5即可執行
 
 
-
-
-
-
 ***
-檔案位置
+### 檔案位置
 1. [學習歷程](https://github.com/BensonLai/Financial-Enginnering/blob/master/HW3/Learning%20Process.pdf)
 2. [流程圖](https://github.com/BensonLai/Financial-Enginnering/blob/master/HW3/Flow%20Chart%20HW3.PNG)
 3. [程式碼](https://github.com/BensonLai/Financial-Enginnering/blob/master/HW3/Codes%20HW3.py)
