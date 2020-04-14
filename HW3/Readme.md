@@ -1,5 +1,7 @@
 ## Assignment 3: Compute Call Price, Put Price
 ### 學習歷程
+![image](https://github.com/BensonLai/Financial-Enginnering/blob/master/HW3/p1.PNG)
+![image](https://github.com/BensonLai/Financial-Enginnering/blob/master/HW3/p2.PNG)
 
 
 ### 流程圖
