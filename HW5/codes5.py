@@ -40,15 +40,11 @@ def genBrownPath (T, mu, sigma, S0, dt):
    n = int(T/dt) + 1
    t = np.linspace(0, T, n)
    W = [0] + np.random.standard_normal(size = n) 
-   W = np.cumsum(W)*np.sqrt(dt) # == standard brownian motion
+   W = np.cumsum(W)*np.sqrt(dt) # standard brownian motion
    X = (mu-0.5*sigma**2)*t + sigma*W 
-   S = S0*np.exp(X) # == geometric brownian motion
+   S = S0*np.exp(X) # geometric brownian motion
+   plt.plot(np.linspace(0, T, n), S)
    return S[timestep - 1]
-
-paths = []
-for i in range(0, num_paths-1):
-    paths.append(genBrownPath(T, mu, sigma, S0, dt))
-plt.show()
 
 S = []
 c = []
